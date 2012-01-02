@@ -1,0 +1,8 @@
+[TechGeneral] blog setup using [Hyde].
+
+Based on [hyde-bootstrap], using [Bootstrap].
+
+[TechGeneral]: http://techgeneral.org/
+[Hyde]: http://hyde.github.com/
+[hyde-bootstrap]: https://github.com/auzigog/hyde-bootstrap
+[Bootstrap]: http://twitter.github.com/bootstrap/

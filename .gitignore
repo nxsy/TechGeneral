@@ -1,0 +1,6 @@
+deploy
+activate
+.env
+.hyde_deps
+.DS_Store
+*.pyc

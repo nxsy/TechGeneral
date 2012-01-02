@@ -1,0 +1,15 @@
+/* Put your styles here */
+
+table.highlighttable td { padding-right: 0; padding-left: 0; border-top: 0; padding: 0;}
+table.highlighttable td.code { border-left: 2px solid green; }
+table.highlighttable pre { margin: 0; background-color: white; }
+table.highlighttable div pre { border-right: 2px solid green; }
+table.highlighttable div.linenodiv pre { border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+table.highlighttable div.highlight pre { border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+
+table.posts td { padding-left: 0; padding-right: 0; margin: 0; border: 0}
+table.posts td.post { padding-left: 1em; }
+table.posts td.year, table.posts td.month, table.posts td.day { font-family: Consolas, Menlo, Monaco, Andale Mono, Courier New, monospace; }
+table.posts td.y1, table.posts td.m1, table.posts td.d1 { font-weight: bold; }
+
+code, pre { font-family: Consolas, Menlo, Monaco, Andale Mono, Courier New, monospace; }
