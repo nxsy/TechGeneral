@@ -1,7 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 set -u
+
+case $# in
+0) pkg="-e git+https://github.com/nxsy/gibe2.git#egg=Gibe2" ;;
+*) pkg="$1" ;;
+esac
+
 
 cd `dirname $0`
 if [ ! -d .env ]; then
@@ -16,4 +22,8 @@ set +u
 source activate
 set -u
 
-pip install -r packages.txt
+pip install ${pkg}
+
+if [ ! -e gibe2 ]; then
+    ln -s .env/bin/gibe2 gibe2
+fi

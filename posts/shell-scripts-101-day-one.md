@@ -1,10 +1,10 @@
----
 title: "Shell scripts 101: day one"
-#subtitle: In which I try to make dealing with other people's shell scripts easier. 
+date: 2012-01-01 16:20:00
+published: 2012-01-01 16:20:00
+subtitle: In which I try to make dealing with other people's shell scripts easier. 
 description:
     Why you should use `set -e` and `set -u` at the top of every shell script.
 created: !!timestamp 2012-01-01 16:20:00
----
 
 ## tl;dr ##
 
