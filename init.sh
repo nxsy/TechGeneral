@@ -24,6 +24,18 @@ set -u
 
 pip install ${pkg}
 
-if [ ! -e gibe2 ]; then
-    ln -s .env/bin/gibe2 gibe2
-fi
+BINS="gibe2"
+for bin in ${BINS}; do
+    if [ ! -e ${bin} ]; then
+        ln -s .env/bin/${bin}
+    fi
+done
+
+EB_FILES="eb"
+for eb_file in ${EB_FILES}; do
+    if [ ! -e ${eb_file} ]; then
+        ln -s scripts/elastic-beanstalk/${eb_file}
+    fi
+done
+
+pip install awsebcli
