@@ -7,6 +7,6 @@ config.register_asset(
 
 config.context_update(
     name="TechGeneral",
-    url="http://techgeneral.org",
+    url="https://techgeneral.org",
     fb_app_id="664060780373796",
 )
