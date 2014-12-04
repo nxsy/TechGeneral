@@ -14,6 +14,8 @@ config.context_update(
 from feedgenerator.django.utils import feedgenerator
 from flask import url_for
 
+app.config['FREEZER_BASE_URL'] = "https://techgeneral.org/"
+
 @app.route('/atom1.0')
 def atom():
     feed = feedgenerator.Atom1Feed(

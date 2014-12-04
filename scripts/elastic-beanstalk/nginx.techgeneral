@@ -11,6 +11,11 @@ server {
 
     server_name localhost;
 
+    location /atom1.0 {
+        types        { }
+        default_type application/atom+xml;
+    }
+
     location / {
         add_header Strict-Transport-Security $hsts_header;
 
