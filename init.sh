@@ -38,4 +38,4 @@ for eb_file in ${EB_FILES}; do
     fi
 done
 
-pip install awsebcli
+pip install awsebcli feedgenerator

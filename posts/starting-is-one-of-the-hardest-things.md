@@ -1,3 +1,4 @@
+type: post
 title: "Starting is one of the hardest things to do"
 date: 2014-12-03 07:45:00
 published: 2014-12-03 07:45:00
